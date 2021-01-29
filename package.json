@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "save-to-github": "./node_modules/install-artifact-from-github/bin/save-to-github-cache.js --artifact build/Release/ABC.node",
-    "install": "./node_modules/install-artifact-from-github/bin/install-from-cache.js --artifact build/Release/ABC.node",
-    "rebuild": "node-gyp rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
