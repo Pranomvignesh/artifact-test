@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Pranomvignesh/artifact-test#readme",
   "dependencies": {
-    "install-artifact-from-github": "1.2.0"
+    "install-artifact-from-github": "1.2.0",
+    "node-gyp": "7.1.2"
   }
 }
