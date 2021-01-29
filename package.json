@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "save-to-github": "./node_modules/install-artifact-from-github/bin/save-to-github-cache.js --artifact build/Release/ABC.node",
+    "install": "./node_modules/install-artifact-from-github/bin/install-from-cache.js --artifact build/Release/ABC.node",
+    "verify-build": "node scripts/verify-build.js",
+    "rebuild": "node-gyp rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Pranomvignesh/artifact-test/issues"
   },
-  "homepage": "https://github.com/Pranomvignesh/artifact-test#readme"
+  "homepage": "https://github.com/Pranomvignesh/artifact-test#readme",
+  "dependencies": {
+    "install-artifact-from-github": "1.2.0"
+  }
 }
